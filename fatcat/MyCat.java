@@ -19,6 +19,12 @@ public class MyCat extends Cat
         wait(1);
         sleep(2);
         wait(1);
+        walkLeft(3);
+        wait(1);
+        walkRight(6);
+        wait(1);
+        walkLeft(3);
+        wait(1);
         shoutHooray();
     }    
 }
